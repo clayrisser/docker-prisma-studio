@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  prisma-studio:
+    image: codejamninja/prisma-studio:latest
+    restart: unless-stopped
+    ports:
+      - 5555:5555
+
+  postgres:
+    image: postgres:12.1
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: data
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - data:/var/lib/postgresql/data
+
+volumes:
+  data: ~
