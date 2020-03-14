@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prisma2": "^2.0.0-preview020.1"
+    "prisma2": "^2.0.0-preview024"
   }
 }
