@@ -1,5 +1,5 @@
 IMAGE := codejamninja/prisma-studio
-VERSION := 0.0.1
+VERSION := 0.0.2
 
 MAJOR := $(shell echo $(VERSION) | cut -d. -f1)
 MINOR := $(shell echo $(VERSION) | cut -d. -f2)
