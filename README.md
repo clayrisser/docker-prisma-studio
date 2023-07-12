@@ -2,6 +2,8 @@
 
 > prisma studio
 
+![](assets/docker-prisma-studio.png)
+
 Please ★ this repo if you found it useful ★ ★ ★
 
 ## Usage
